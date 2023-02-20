@@ -10,7 +10,6 @@
 </head>
 
 <body>
-    <h1>{{ $hi_laravel }}</h1>
     <header>
         <ul>
             @foreach($menu as $index => $item)

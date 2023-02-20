@@ -18,8 +18,8 @@ Route::get('/', function () {
 
 
     $menu = [
-        'homepage' => '/',
-        'about_laravel' => '/about_laravel',
+
+        'about_laravel' => 'about laravel',
         'contacts' => '/contacts'
     ];
     return view('home', compact('hi_laravel', 'menu'));

@@ -13,8 +13,8 @@
     <h1>{{ $hi_laravel }}</h1>
     <header>
         <ul>
-            @foreach($menu as $index => $item)
-            <li><a href="{{ route('about_laravel') }}">{{ $index }}</a></li>
+            @foreach($menu as $key => $item)
+            <li><a href="{{ route($key) }}">{{ $item }}</a></li>
             @endforeach
         </ul>
     </header>
