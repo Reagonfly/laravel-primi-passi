@@ -33,7 +33,7 @@ Route::get('/about_laravel', function () {
         'contacts' => '/contacts'
     ];
 
-    return view('about-laravel', compact('menu'));
+    return view('about_laravel', compact('menu'));
 })->name('about_laravel');
 
 
