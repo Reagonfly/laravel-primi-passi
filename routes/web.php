@@ -19,7 +19,7 @@ Route::get('/', function () {
 
     $menu = [
         'homepage' => '/',
-        'about_laravel' => '/about-laravel',
+        'about_laravel' => '/about_laravel',
         'contacts' => '/contacts'
     ];
     return view('home', compact('hi_laravel', 'menu'));
@@ -29,7 +29,7 @@ Route::get('/', function () {
 Route::get('/about_laravel', function () {
     $menu = [
         'homepage' => '/',
-        'about_laravel' => '/about-laravel',
+        'about_laravel' => '/about_laravel',
         'contacts' => '/contacts'
     ];
 
