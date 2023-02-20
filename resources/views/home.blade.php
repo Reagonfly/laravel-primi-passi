@@ -14,7 +14,7 @@
     <header>
         <ul>
             @foreach($menu as $index => $item)
-            <li><a href="{{ $item }}">{{ $index }}</a></li>
+            <li><a href="{{ route('about_laravel') }}">{{ $index }}</a></li>
             @endforeach
         </ul>
     </header>
