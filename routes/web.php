@@ -40,7 +40,7 @@ Route::get('/about_laravel', function () {
 Route::get('/contacts', function () {
     $menu = [
         'homepage' => '/',
-        'about_laravel' => '/about-laravel',
+        'about_laravel' => '/about_laravel',
         'contacts' => '/contacts'
     ];
     return view('contacts', compact('menu'));
